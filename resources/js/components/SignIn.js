@@ -146,7 +146,7 @@ const SignIn = (props) => {
             src="images/e-learning.png"
           ></Avatar>
           <Typography component="h5" variant="h5" sx={{ marginTop: "-40px" }}>
-            Sign in
+            Sign in Now Please
           </Typography>
           <Box
             component="form"

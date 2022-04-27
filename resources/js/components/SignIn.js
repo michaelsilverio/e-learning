@@ -220,7 +220,7 @@ const SignIn = (props) => {
               sx={{ mt: 3, mb: 2 }}
               disabled={props.isSubmitDisabled}
             >
-              Sign In Now Please
+              Sign In
             </Button>
             <Grid container>
               <Grid item xs>

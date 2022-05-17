@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /public/index.php
+  - source: /
     destination: /var/www/html/
 #env:
   #variables:

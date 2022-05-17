@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 version: 0.2
 os: linux
+=======
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/
+>>>>>>> 3a5936c24d24ae969381037dfada063c493ca51e
 #env:
   #variables:
      # key: "value"

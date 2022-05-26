@@ -27,7 +27,8 @@ class RegisterRequest extends FormRequest
             'fname' => ['required', 'max:40'],
             'lname' => ['required', 'max:40'],
             // You can use email:rfc,dns to check if an email is legit
-            'email' => ['required', 'email', 'unique:users,email'],
+            // 'email' => ['required', 'email', 'unique:users,email'],
+            'email' => ['required', 'email'],
             'password' => ['required', 'min:8'],
             'confirm_password' => ['required', 'min:8']
         ];
